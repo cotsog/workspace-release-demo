@@ -1,8 +1,7 @@
 {
   "private": true,
   "scripts": {
-      "release": "workspace-version"
+    "release": "workspace-version"
   },
   "workspaces": ["packages/**"]
 }
-  
