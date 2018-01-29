@@ -3,5 +3,10 @@
   "scripts": {
     "release": "workspace-version"
   },
-  "workspaces": ["packages/**"]
+  "workspaces": [
+    "packages/**"
+  ],
+  "devDependencies": {
+    "workspace-release": "^0.1.0"
+  }
 }
