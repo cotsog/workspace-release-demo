@@ -13,7 +13,7 @@ cache:
 
 # publish on tag
 script:
-  - if [ -n "$TRAVIS_TAG" ]; then yarn workspace-publish; fi
+  - if [ -n "$TRAVIS_TAG" ]; then node node_modules/.bin/workspace-publish; fi
 
 # stored NPM_AUTH_TOKEN
 env:
