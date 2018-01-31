@@ -1,6 +1,6 @@
 {
   "name": "workspace-release-demo-a",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "scripts": {
     "preversion": "echo Hello from preversion.",
     "version": "echo Hello from version.",
