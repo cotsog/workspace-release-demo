@@ -1805,9 +1805,9 @@ wordwrap@~0.0.2:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
 
-workspace-release@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/workspace-release/-/workspace-release-0.3.0.tgz#0d281e69d81c9d079136918d2ffbeb9d894839c5"
+workspace-release@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/workspace-release/-/workspace-release-0.4.0.tgz#6c9e2a88f93ac99a655937e60b454fd06f4737d0"
   dependencies:
     chalk "^2.3.0"
     fast-glob "^2.0.1"
