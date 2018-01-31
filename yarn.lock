@@ -86,7 +86,7 @@ call-me-maybe@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/call-me-maybe/-/call-me-maybe-1.0.1.tgz#26d208ea89e37b5cbde60250a15f031c16a4d66b"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0:
+chalk@^2.0.0, chalk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.0.tgz#b5ea48efc9c1793dccc9b4767c93914d3f2d52ba"
   dependencies:
@@ -468,12 +468,6 @@ lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-log-symbols@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
-  dependencies:
-    chalk "^2.0.1"
-
 map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
@@ -803,13 +797,12 @@ use@^2.0.0:
     isobject "^3.0.0"
     lazy-cache "^2.0.2"
 
-workspace-release@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/workspace-release/-/workspace-release-0.1.1.tgz#689c5f0ca671c31e37e82fb25b73bbd75c267594"
+workspace-release@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/workspace-release/-/workspace-release-0.2.0.tgz#3279ec525fa45e5df46f386a5675e5549f7aece0"
   dependencies:
     chalk "^2.3.0"
     fast-glob "^2.0.1"
     fs-extra "^5.0.0"
     inquirer "^5.0.1"
-    log-symbols "^2.2.0"
     semver "^5.5.0"

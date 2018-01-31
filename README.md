@@ -1,0 +1,1 @@
+This is repository is just an example which shows how you can use [`workspace-release`](https://github.com/donaldpipowitch/workspace-release). The interesting part is probably the [`.travis.yml` configuration](./.travis.yml); 
