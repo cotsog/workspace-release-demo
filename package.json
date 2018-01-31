@@ -7,6 +7,6 @@
     "packages/**"
   ],
   "devDependencies": {
-    "workspace-release": "^0.4.1"
+    "workspace-release": "^0.4.2"
   }
 }
