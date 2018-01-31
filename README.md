@@ -1,1 +1,3 @@
-This is repository is just an example which shows how you can use [`workspace-release`](https://github.com/donaldpipowitch/workspace-release). The interesting part is probably the [`.travis.yml` configuration](./.travis.yml). 
+This is repository is just an example which shows how you can use [`workspace-release`](https://github.com/donaldpipowitch/workspace-release). The interesting part is probably the [`.travis.yml` configuration](./.travis.yml).
+
+You would just run `$ yarn` to install `workspace-release` and than run `$ yarn workspace-version` to tag the packages you want to release. (Of course you can also add an alias in your `package.json` to use a different command. In this case I use `$ yarn release`, which is more concise, but slightly incorrect, because the _real_ release/publishing happens in Travis.)
