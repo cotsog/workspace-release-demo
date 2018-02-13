@@ -3,18 +3,6 @@ language: node_js
 node_js:
   - "9"
 
-# use yarn
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.3.2
-  - export PATH="$HOME/.yarn/bin:$PATH"
-cache:
-  yarn: true  
-
 # publish on tag
 script:
-  - node node_modules/.bin/workspace-publish
-
-# stored NPM_TOKEN
-env:
-  global:
-    secure: ALxFSw26khX59CBWWcGrCPoc6ej9yNno6AB0xv53YMHtTXXIjJWLX38H0WiI6PyOIrGh5yA1J4LrFlTjoAA9xCxjW0fq/uv19kUTJg0OQZsbP5P+0Hiyrrw2Z6Yvy2AdVKG5YI3BXkhlPuuZG/0NJfeukbX8dbvp9gshHNV09sEeVzOqnNF3O22O6mTCU4Trrd4nmf4LKthsEdHlE29DKMo8uMShU5Jd7UZFmKBOvPNhQnvILjEkIEl5j/Dmp34uXZ9Ww5TFj4budv2nUhN3LAh/CWqoSeXwOwcT5g/IAgs1uA8DE77bG8sMB6Zmvr64JYNRg6NAbfTF4sc3B4cVv0Als4fnppReUGQ8HG7GzVjr85V2BgZMPSjbqtzYtdDPy16AhBO1m8BK9sV6r23mOsP1Ak7DiOsiP1c7byakIDTly31c6HD1EVP72epwo15YShN/i1CHJYWx8Pwq/W73T2ClVaMzagdtkfpK8KfauAROxJ6TdLWagr553qdBRDyEnq1uPdPFd08mtEC3u/6OBnuaeAxwgwgaBEj76JDFOgJgCgIz+xUP8d2FEWeR947smLe+Jr+5aaQkcnKgB6BMD8r9EsYm9XbPof62Ev0QPckM5Qikn4c852NW+fSDwWZBlGa7438hdx6Kt94tevSaKf5o26rNMByKahAfCiZ/3KE=
+  - yarn workspace-publish
