@@ -5,4 +5,5 @@ node_js:
 
 # publish on tag
 script:
+  - yarn list
   - yarn workspace-publish
