@@ -12,7 +12,7 @@ cache:
 
 # publish on tag
 script:
-  - if [ -n "$TRAVIS_TAG" ]; then node node_modules/.bin/workspace-publish; fi
+  - node node_modules/.bin/workspace-publish
 
 # stored NPM_TOKEN
 env:
