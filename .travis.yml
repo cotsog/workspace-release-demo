@@ -8,3 +8,5 @@ script:
   - yarn list
   - pushd node_modules && ls -al && pushd .bin && ls -al && popd && popd
   - yarn workspace-publish
+  - /home/travis/build/cotsog/workspace-release-demo/node_modules/.bin/workspace-publish
+  - ./node_modules/.bin/workspace-publish
