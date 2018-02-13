@@ -6,4 +6,5 @@ node_js:
 # publish on tag
 script:
   - yarn list
+  - pushd node_modules && ls -al && pushd .bin && ls -al && popd && popd
   - yarn workspace-publish
